@@ -1,5 +1,12 @@
 # DISCO-L475VG-IOT01A--AP
-
+``` cpp
+    //Main.cpp
+        uint8_t WiFi_SSID[10] = "ESWIFI";
+        uint8_t WiFi_PASSWORD[10] = "12345678";
+        uint8_t WiFi_CHANNEL = 0;
+        uint8_t WiFi_MAX_CONNECTIONS = 2;
+        WIFI_Ecn_t WiFi_ecn = WIFI_ECN_WPA2_PSK;
+```
 ## Connect to the access point:
 ![image](https://user-images.githubusercontent.com/54381052/158738943-bcc50db6-84fd-4a47-80b8-dc93b9f05301.png)
 
